@@ -1,0 +1,16 @@
+yolo_model:
+
+  config_file:
+    name: BEWAv8-yolov4-tiny-detector.cfg
+  weight_file:
+    name: BEWAv8-yolov4-tiny-detector_final.weights
+  threshold:
+    value: 0.1
+  detection_classes:
+    names:
+      - A10
+      - A.5
+      - A_1
+      - boat
+      - bollard
+      - bridge
